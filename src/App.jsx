@@ -32,6 +32,7 @@ export default function App () {
       <header className='header'></header>
       <div className='content'>
         <section className='heading'>
+          <div className='vector'></div>
           <h1>Our Collection</h1>
           <p>
             Introducing our Coffee Collection, a selection of unique coffees

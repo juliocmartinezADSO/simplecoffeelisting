@@ -38,16 +38,28 @@
     width: 80%;
     top: 20%;
     left: 10%;
-    right: 10%;
-  
+    right: 10%;  
     background-color: var(--gris-oscuro);
     border-radius: 10px;
-    padding-top: 20px;
+    padding-top: 100px;
   }
   
   .heading {
+    position: relative;
     width: 45%;
     margin: 0 auto;
+
+    z-index: 1;
+
+  }
+  .vector{
+    position: absolute;
+    background-image: url('./assets/vector.svg');
+    width: 53%;
+    height: 97%;
+    top: -55px;
+    right: -8px;
+    z-index: -1;
   }
   .buttonGroup{
     display: flex;
