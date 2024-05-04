@@ -1,5 +1,5 @@
+import './App.css'
 import React, { useState, useEffect } from 'react'
-import './index.css'
 import starFill from './assets/Star_fill.svg'
 import starDisabled from './assets/Star.svg'
 
